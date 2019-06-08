@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+.container-small {
+    max-width: 400px;
+}
+
+.btn-black {
+    background: rgba(112, 109, 109, 0.63);
+    color: #3C4049;
+    
+}
+.btn-black-ps{
+    width: 150px;
+    margin-left: 23px;
+}
+
+.btn-black:hover {
+    background: #3C4049;
+    color: snow;
+}
+
+.a {
+    display: block;
+    margin-top: 20px;
+}
