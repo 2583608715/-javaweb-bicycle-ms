@@ -5,10 +5,15 @@
 
     <head>
 
+        <link rel="stylesheet" href="css/welcome.css" media="screen" type="text/css" />
+
     </head>
 
     <body>
-        www.www.www.www.www
+
+        <h1 class="text"><span>Welcome You!</span></h1>
+        <div style="text-align:center;clear:both;">
+
     </body>
     <% 
    String msg=(String)request.getAttribute("msg");
@@ -21,10 +26,6 @@
         <%
    }
 %>
-            <script>
-                $(window).load(function() {
-                    $("#target").trigger("click");
-                })
-            </script>
+
 
     </html>
